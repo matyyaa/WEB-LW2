@@ -1,0 +1,114 @@
+.table {
+    border-collapse: collapse;
+}
+
+.row-first {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row-second {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row-third {
+    padding: 18px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row-group-first {
+    background-color: #448F8F;
+    color: #071A42;
+}
+
+.row-group-second {
+    background-color: #F5F544;
+    color: #5C5C5C;
+}
+
+.table .row-group-first:hover {
+    background-color: #071A42;
+    color: #448F8F;
+}
+
+.table .row-group-second:hover {
+    background-color: #5C5C5C;
+    color: #F5F544;
+}
+
+.big_circle {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 25px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.lil_circle {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.horisontal {
+    position: relative;
+    background-color: black;
+    width: 200px;
+    height: 10px;
+    left: 25px;
+    top: -30px;
+}
+
+.vertical {
+    position: relative;
+    background-color: black;
+    width: 10px;
+    height: 200px;
+    left: 120px;
+    top: -135px;
+}
+
+.first {
+    height: 100px;
+    width: 100px;
+    border: 25px solid black;
+    border-radius: 50%;
+    transform: translate(190%, -347%);
+}
+
+.second {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+
+}
+
+.horizontal-line {
+    background-color: black;
+    height: 10px;
+    width: 200px;
+    transform: translate(130%, -2400%);
+    position: relative;
+    z-index: 2;
+}
+
+.vertical-line {
+    background-color: black;
+    height: 200px;
+    width: 10px;
+    transform: translate(3550%, -172.5%);
+    position: relative;
+    z-index: 2;
+}
